@@ -1,0 +1,38 @@
+.container {
+    border: 1px solid;
+}
+div#header {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin: 5px;
+}
+div#Parent {
+    overflow: auto;
+    margin: 5px;
+}
+div#districts {
+    width: 250px;
+    background-color: lightgray;
+    float: left;
+    height: 150px;
+}
+ul {
+    list-style-type: none;
+}
+li {
+    line-height: 1.5;
+}
+div#districtDetails {
+    float: right;
+    width: 690px;
+    height: 150px;
+}
+div#footer {
+    background-color: black;
+    color: white;
+    height: 50px;
+    text-align: center;
+    margin: 5px;
+}

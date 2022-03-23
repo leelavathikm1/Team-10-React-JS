@@ -6,13 +6,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
+        *{
+            color: chartreuse;
+        }
         thead{
             background-color: yellow;
             color: red;
             padding: 5px;
         }
-        tbody{
+        /* tbody{
             background-color: blueviolet;
+        } */
+       thead tr{
+            background-color: blueviolet;
+        }
+        #firstRow{
+            background-color: green;
+        }
+        .fail{
+            background-color: red;
         }
     </style>
 </head>
@@ -30,7 +42,7 @@
         </thead>
         <tbody>
             <!--tr Table Row, td Table Data -->
-            <tr>
+            <tr id="firstRow">
                 <td>1.</td>
                 <td>Padmaja</td>
                 <td>22</td>
@@ -46,7 +58,7 @@
                 <td>Andhra</td>
                 <td>57004</td>
             </tr>
-            <tr>
+            <tr class="fail">
                 <td>1.</td>
                 <td>Padmaja</td>
                 <td>22</td>
@@ -54,7 +66,7 @@
                 <td>Andhra</td>
                 <td>57004</td>
             </tr>
-            <tr>
+            <tr class="fail">
                 <td>1.</td>
                 <td>Padmaja</td>
                 <td>22</td>
