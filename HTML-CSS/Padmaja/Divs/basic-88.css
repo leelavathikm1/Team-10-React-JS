@@ -1,0 +1,67 @@
+body{
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 14px;
+}
+div#headSection {
+    background-color: black;
+    color: white;
+}
+header {
+    width: 900px;
+    margin: 0 auto;
+    overflow: auto;
+}
+nav {
+    width: 650px;
+    float: right;
+    margin: 20px;
+}
+div#logoSection {
+    width: 300px;
+    float: left;
+    margin-top: 13px;
+}
+nav {
+    width: 579px;
+    float: right;
+    margin: 10px 0 10px 10px;
+    background-color: gray;
+}
+nav li {
+    display: inline;
+    margin-right: 45px;
+}
+div#imageSection {
+    width: 900px;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+#imageSection img {
+    width: 900px;
+   
+}
+div#figureDivs {
+    width: 900px;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+.figImages {
+    width: 290px;
+    float: left;
+    margin-right: 15px;
+}
+.figImages3 {
+    width: 290px;
+    float: right;
+}
+figure {
+    padding: 0;
+    margin: 0;
+}
+figure img {
+    width: 245px;
+    margin-left: 0;
+    border: 1px solid gray;
+    padding: 4px;
+}
+}
